@@ -30,9 +30,5 @@ receberão acesso aos recursos oferecidos pelo programa. Com isso, os clientes p
 os cozinheiros, que após o preparo dos alimentos, podem disponibilizar os dados do cliente para o entregador.
 
 Contribuiram para essse projeto:
-Bernardo Lopes Monteiro de Oliveira 
-Ronaldo Afonso do Couto Neto
-Pedro Henrique Rodrigues Pina
-Vitor Coimbra Pontes Maia
-Luan Azevedo de Morais 
+Bernardo Lopes Monteiro de Oliveira, Ronaldo Afonso do Couto Neto, Pedro Henrique Rodrigues Pina, Vitor Coimbra Pontes Maia, Luan Azevedo de Morais 
  
