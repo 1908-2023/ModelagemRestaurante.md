@@ -27,7 +27,7 @@ fornecer o acesso aos cozinheiros empregados, e registrar o restaurante em aplic
 receberão acesso aos recursos oferecidos pelo programa. Com isso, os clientes poderão fazer seus pedidos e estes estarão disponíveis para
 os cozinheiros, que após o preparo dos alimentos, podem disponibilizar os dados do cliente para o entregador.
 
-Contribuiram para essse projeto:
+Contribuíram para essse projeto:
 
 Bernardo Lopes Monteiro de Oliveira 
 
