@@ -31,7 +31,7 @@ Contribuíram para essse projeto:
 
 Bernardo Lopes Monteiro de Oliveira .
 
-Ronaldo Afonso do Couto Neto
+Ronaldo Afonso do Couto Neto.
 
 Pedro Henrique Rodrigues Pina
 
