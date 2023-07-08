@@ -35,6 +35,6 @@ Ronaldo Afonso do Couto Neto.
 
 Pedro Henrique Rodrigues Pina.
 
-Vitor Coimbra Pontes Maia
+Vitor Coimbra Pontes Maia.
 
 Luan Azevedo de Morais
