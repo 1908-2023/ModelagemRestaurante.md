@@ -2,7 +2,7 @@
 
 O que é o projeto:
 O projeto é um sistema para restaurantes online com foco na produção e entrega de alimentos, que busca atender todos
-os usuários participantes com qualidade e tambem agilidade.
+os usuários participantes com qualidade e agilidade.
 
 Os usuários que procuramos atender com o nosso sistema são:
 O dono do restaurante, o cozinheiro responsável pelo preparo dos alimentos, o entregador dos produtos e o cliente.
