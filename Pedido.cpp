@@ -1,21 +1,24 @@
-#ifndef PEDIDO_HPP
-#define PEDIDO_HPP
+#include "Pedido.hpp"
 
-#include <string>
+Pedido::Pedido(const std::string &cliente, const std::string &descricao)
+    : cliente(cliente), descricao(descricao), status("pedido enviado") {}
 
-class Pedido
+std::string Pedido::getCliente() const
 {
-private:
-    std::string cliente;
-    std::string descricao;
-    std::string status;
+    return cliente;
+}
 
-public:
-    Pedido(const std::string &cliente, const std::string &descricao);
-    std::string getCliente() const;
-    std::string getDescricao() const;
-    std::string getStatus() const;
-    void setStatus(const std::string &novoStatus);
-};
+std::string Pedido::getDescricao() const
+{
+    return descricao;
+}
 
-#endif
+std::string Pedido::getStatus() const
+{
+    return status;
+}
+
+void Pedido::setStatus(const std::string &novoStatus)
+{
+status=novoStatus;
+}
