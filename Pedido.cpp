@@ -1,34 +1,21 @@
-#include <iostream>
+#ifndef PEDIDO_HPP
+#define PEDIDO_HPP
+
 #include <string>
-#include "DonoRestaurante.hpp"
-#include "Cliente.hpp"
-#include "Entregador.hpp"
-#include "Cozinheiro.hpp"
 
-int main()
+class Pedido
 {
-    DonoRestaurante donoRestaurante;
-    donoRestaurante.cadastrarFornecedor("Fornecedor 1", "Endereco 1", "Telefone 1");
-    donoRestaurante.cadastrarFornecedor("Fornecedor 2", "Endereco 2", "Telefone 2");
+private:
+    std::string cliente;
+    std::string descricao;
+    std::string status;
 
-    donoRestaurante.exibirFornecedores();
+public:
+    Pedido(const std::string &cliente, const std::string &descricao);
+    std::string getCliente() const;
+    std::string getDescricao() const;
+    std::string getStatus() const;
+    void setStatus(const std::string &novoStatus);
+};
 
-    Cliente cliente;
-    cliente.realizarPedido("Endereco do Cliente");
-    cliente.exibirStatusPedido();
-    cliente.cancelarPedido();
-
-    Entregador entregador;
-    entregador.receberNovoPedido("Endereco de Entrega", "Contato do Cliente");
-    entregador.exibirPedidosPendentes();
-   // entregador.marcarPedidoEntregue(1);
-
-    Cozinheiro cozinheiro;
-    cozinheiro.receberNovoPedido("Cliente 1", {"Item 1", "Item 2"});
-    cozinheiro.receberNovoPedido("Cliente 2", {"Item 3"});
-    cozinheiro.exibirPedidosPendentes();
-    cozinheiro.marcarPedidoPreparado(1);
-
-    system("pause");
-    return 0;
-}
+#endif
