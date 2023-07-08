@@ -29,7 +29,7 @@ os cozinheiros, que após o preparo dos alimentos, podem disponibilizar os dados
 
 Contribuíram para essse projeto:
 
-Bernardo Lopes Monteiro de Oliveira 
+Bernardo Lopes Monteiro de Oliveira .
 
 Ronaldo Afonso do Couto Neto
 
