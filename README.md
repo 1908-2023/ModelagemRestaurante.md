@@ -33,7 +33,7 @@ Bernardo Lopes Monteiro de Oliveira .
 
 Ronaldo Afonso do Couto Neto.
 
-Pedro Henrique Rodrigues Pina
+Pedro Henrique Rodrigues Pina.
 
 Vitor Coimbra Pontes Maia
 
