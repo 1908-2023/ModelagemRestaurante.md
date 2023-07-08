@@ -4,9 +4,11 @@
 #include <string>
 #include <vector>
 
-class Cardapio {
+class Cardapio
+{
 public:
-    struct Item {
+    struct Item
+    {
         std::string nome;
         std::string descricao;
         double preco;
@@ -14,8 +16,8 @@ public:
 
     Cardapio();
 
-    void adicionarItem(const std::string& nome, const std::string& descricao, double preco);
-    void removerItem(const std::string& nome);
+    void adicionarItem(const std::string &nome, const std::string &descricao, double preco);
+    void removerItem(const std::string &nome);
     void exibirCardapio() const;
 
 private:
