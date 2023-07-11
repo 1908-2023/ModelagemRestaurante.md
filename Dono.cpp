@@ -1,4 +1,4 @@
-#include "DonoRestaurante.hpp"
+#include "Dono.hpp"
 #include <iostream>
 
 void DonoRestaurante::cadastrarFornecedor(const std::string &nome, const std::string &endereco, const std::string &telefone)
