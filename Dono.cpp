@@ -1,7 +1,7 @@
 #include "Dono.hpp"
 #include <iostream>
 
-void DonoRestaurante::cadastrarFornecedor(const std::string &nome, const std::string &endereco, const std::string &telefone)
+void Dono::cadastrarFornecedor(const std::string &nome, const std::string &endereco, const std::string &telefone)
 {
     Fornecedor fornecedor;
     fornecedor.nome = nome;
@@ -10,7 +10,7 @@ void DonoRestaurante::cadastrarFornecedor(const std::string &nome, const std::st
     fornecedores.push_back(fornecedor);
 }
 
-void DonoRestaurante::editarFornecedor(const std::string &nome, const std::string &novoEndereco, const std::string &novoTelefone)
+void Dono::editarFornecedor(const std::string &nome, const std::string &novoEndereco, const std::string &novoTelefone)
 {
     for (auto &fornecedor : fornecedores)
     {
@@ -23,7 +23,7 @@ void DonoRestaurante::editarFornecedor(const std::string &nome, const std::strin
     }
 }
 
-void DonoRestaurante::excluirFornecedor(const std::string &nome)
+void Dono::excluirFornecedor(const std::string &nome)
 {
     for (auto it = fornecedores.begin(); it != fornecedores.end(); ++it)
     {
@@ -35,7 +35,7 @@ void DonoRestaurante::excluirFornecedor(const std::string &nome)
     }
 }
 
-void DonoRestaurante::exibirFornecedores() const
+void Dono::exibirFornecedores() const
 {
     std::cout << "Lista de fornecedores cadastrados:\n";
     for (const auto &fornecedor : fornecedores)
@@ -46,7 +46,7 @@ void DonoRestaurante::exibirFornecedores() const
     }
 }
 /*
-void DonoRestaurante::visualizarStatusEstoque() const
+void Dono::visualizarStatusEstoque() const
 {
     std::cout << "Status do estoque:\n";
     // Implementação para visualizar o status do estoque
