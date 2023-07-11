@@ -1,10 +1,10 @@
-#ifndef DONORESTAURANTE_HPP
-#define DONORESTAURANTE_HPP
+#ifndef DONO_HPP
+#define DONO_HPP
 
 #include <string>
 #include <vector>
 
-class DonoRestaurante
+class Dono
 {
 private:
     struct Fornecedor
